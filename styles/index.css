@@ -1,0 +1,48 @@
+.accueil-introduction {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  align-items: flex-start;
+  margin: auto;
+}
+.accueil-introduction h1 {
+  margin-bottom: 30px;
+}
+
+.accueil-introduction p {
+  margin-bottom: 30px;
+}
+
+.carousel {
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto; /* Pour centrer le carrousel */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-image {
+  width: 100%;
+  border-radius: 10px;
+}
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+button.prev {
+  left: 10px;
+}
+button.next {
+  right: 10px;
+}
+button:hover {
+  background-color: rgba(153, 202, 211, 0.8);
+}

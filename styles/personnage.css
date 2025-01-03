@@ -1,0 +1,14 @@
+.personnage {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  align-items: flex-start;
+  margin: auto;
+}
+.personnage h1 {
+  margin-bottom: 50px;
+}
+
+.personnage p {
+  margin-bottom: 30px;
+}

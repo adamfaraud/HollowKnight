@@ -1,0 +1,37 @@
+.maps {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  align-items: flex-start;
+  margin: auto;
+}
+.maps h1 {
+  margin-bottom: 50px;
+}
+
+.maps p {
+  margin-bottom: 30px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  padding: 20px;
+  text-align: right;
+}
+.image-item {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #ffffff;
+}
+.image-item img {
+  width: 80%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+.image-item img:hover {
+  transform: scale(1.1);
+}
